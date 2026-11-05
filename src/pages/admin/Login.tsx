@@ -4,7 +4,13 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { useToast } from "@/hooks/use-toast";
 
 const AdminLogin = () => {
@@ -15,8 +21,8 @@ const AdminLogin = () => {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    
-    if (username === "admin" && password === "nmc@170225!") {
+
+    if (username === "admin" && password === "Jkg@170225!") {
       localStorage.setItem("adminAuth", "true");
       toast({
         title: "Login berhasil",
@@ -41,7 +47,9 @@ const AdminLogin = () => {
       >
         <Card className="w-full max-w-md">
           <CardHeader className="space-y-1">
-            <CardTitle className="text-3xl font-bold text-center">Admin Login</CardTitle>
+            <CardTitle className="text-3xl font-bold text-center">
+              Admin Login
+            </CardTitle>
             <CardDescription className="text-center">
               Masukkan kredensial admin Anda
             </CardDescription>
