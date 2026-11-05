@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import MainLogo from '@/assets/Logo_NMC.png'
+import MainLogo from "@/assets/Logo_NMC.png";
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
@@ -26,10 +26,9 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <div className="w-24 h-24 p-3">
-             <img src={MainLogo} alt="" />
+            <div className="w-24 h-24 p-5">
+              <img src={MainLogo} alt="" />
             </div>
-
           </Link>
 
           {/* Desktop Navigation */}
@@ -64,7 +63,11 @@ const Navigation = () => {
           <div className="lg:hidden pb-4">
             <div className="flex flex-col space-y-2">
               {navLinks.map((link) => (
-                <Link key={link.to} to={link.to} onClick={() => setIsOpen(false)}>
+                <Link
+                  key={link.to}
+                  to={link.to}
+                  onClick={() => setIsOpen(false)}
+                >
                   <Button
                     variant="ghost"
                     className={`w-full justify-start ${

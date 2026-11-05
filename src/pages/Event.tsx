@@ -109,7 +109,7 @@ const Event = () => {
                           alt={event.title}
                           className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                         />
-                        <Badge className="absolute top-4 right-4 bg-gold text-background">
+                        <Badge className="absolute top-4 right-4 bg-gold text-white">
                           Buka Pendaftaran
                         </Badge>
                       </div>

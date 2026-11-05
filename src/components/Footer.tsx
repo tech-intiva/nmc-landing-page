@@ -68,7 +68,7 @@ Kami menikmati setiap perjalanan dari touring dekat hingga jauh yang selalu menj
                   href={social.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-10 h-10 bg-secondary rounded-full flex items-center justify-center hover:bg-gold hover:text-background transition-all"
+                  className="w-10 h-10 bg-secondary rounded-full flex items-center justify-center hover:bg-gold hover:text-white transition-all"
                   aria-label={social.label}
                 >
                   <social.icon size={20} />

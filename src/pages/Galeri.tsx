@@ -127,7 +127,7 @@ export default function Galeri() {
               className={`px-6 py-2 rounded-full border transition
               ${
                 filter === t
-                  ? "bg-gold text-background"
+                  ? "bg-gold text-white"
                   : "bg-card hover:bg-gold/20"
               }`}
             >

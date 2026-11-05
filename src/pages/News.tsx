@@ -90,7 +90,7 @@ const News = () => {
                               alt={featuredNews.title}
                               className="w-full h-full object-cover"
                             />
-                            <Badge className="absolute top-4 left-4 bg-gold text-background">
+                            <Badge className="absolute top-4 left-4 bg-gold text-white">
                               Featured
                             </Badge>
                           </div>

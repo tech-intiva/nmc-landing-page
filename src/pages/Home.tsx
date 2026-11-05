@@ -114,7 +114,7 @@ console.log(homeContent)
               </p>
 
               <Link to="/tentang">
-                <Button className="bg-gold hover:bg-gold/90 text-background">
+                <Button className="bg-gold hover:bg-gold/90 text-white">
                   Selengkapnya <ArrowRight className="ml-2" size={20} />
                 </Button>
               </Link>
@@ -209,7 +209,7 @@ console.log(homeContent)
             <Link to="/news">
               <Button
                 variant="outline"
-                className="border-gold text-gold hover:bg-gold hover:text-background"
+                className="border-gold text-gold hover:bg-gold hover:text-white"
               >
                 Lihat Semua Berita
               </Button>
@@ -245,7 +245,7 @@ console.log(homeContent)
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/member">
-              <Button className="bg-gold hover:bg-gold/90 text-background font-bold" size="lg">
+              <Button className="bg-gold hover:bg-gold/90 text-white font-bold" size="lg">
                 Daftar Sekarang
               </Button>
             </Link>
@@ -253,7 +253,7 @@ console.log(homeContent)
               <Button
                 size="lg"
                 variant="outline"
-                className="border-gold text-gold hover:bg-gold hover:text-background"
+                className="border-gold text-gold hover:bg-gold hover:text-white"
               >
                 Pelajari Lebih Lanjut
               </Button>
